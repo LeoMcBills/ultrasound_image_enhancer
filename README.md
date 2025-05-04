@@ -165,5 +165,8 @@ If you have any questions, suggestions, or issues, please feel free to open an i
 [https://github.com/LeoMcBills/ultrasound_image_enhancer/issues](https://github.com/LeoMcBills/ultrasound_image_enhancer/issues)
 
 Or contact the author:
+*   GitHub: [tr8cycl](https://github.com/tr8cycl)
+*   Email: natukundatracy11740@gmail.com
+*   
 *   GitHub: [LeoMcBills](https://github.com/LeoMcBills)
 *   Email: leokinyera81@gmail.com
