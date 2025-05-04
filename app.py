@@ -510,10 +510,10 @@ def show_comparison(n_clicks, img_orig_base64, img_enhanced_base64, filename):
         return create_plotly_fig(None, "Comparison Error"), error_message
 
 
-# --- Run the App ---
-if __name__ == '__main__':
-    print("Starting Dash server...")
-    # Use debug=True for development (enables hot-reloading and error pages)
-    # host='127.0.0.1' makes it accessible only locally
-    # host='0.0.0.0' makes it accessible on your network
-    app.run(debug=False, host='127.0.0.1')
+# # --- Run the App ---
+# if __name__ == '__main__':
+#     print("Starting Dash server...")
+#     # Use debug=True for development (enables hot-reloading and error pages)
+#     # host='127.0.0.1' makes it accessible only locally
+#     # host='0.0.0.0' makes it accessible on your network
+#     app.run(debug=False, host='127.0.0.1')
