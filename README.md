@@ -16,7 +16,7 @@
   <!-- Add other relevant badges if desired (e.g., deployment link, documentation) -->
 
   <!-- Updated Live Demo Badge for Render -->
-  <a href="https://ultrasound-image-enhancer.onrender.com/"><img alt="Live Demo on Render"
+  <a href="https://ultrasound-image-enhancer.onrender.com"><img alt="Live Demo on Render"
     src="https://img.shields.io/badge/Live_Demo-Online-46E3B7?logo=render&logoColor=white"/></a>
 </div>
 
@@ -130,7 +130,7 @@ Follow these steps to set up the project locally:
     Access the app at `http://<your-local-ip>:8050`.
 
 3.  **Deployed App:**
-    Visit the live application hosted on Render: [https://ultrasound-image-enhancer.onrender.com/](https://ultrasound-image-enhancer.onrender.com/)
+    Visit the live application hosted on Render: [https://ultrasound-image-enhancer.onrender.com/](https://ultrasound-image-enhancer.onrender.com)
 
 4.  **Workflow:**
     *   Use the "Drag and Drop or Select Ultrasound Image" area to upload a grayscale image.
