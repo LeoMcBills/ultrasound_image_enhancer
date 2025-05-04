@@ -14,10 +14,10 @@
   <a href="https://github.com/LeoMcBills/ultrasound_image_enhancer/blob/main/LICENSE"><img alt="License"
     src="https://img.shields.io/badge/License-MIT-yellow.svg"/></a>
   <!-- Add other relevant badges if desired (e.g., deployment link, documentation) -->
-  <!-- Example Deployment Badge (if applicable):
-  <a href="[Your Deployed App Link]"><img alt="Live Demo"
-    src="https://img.shields.io/badge/Live_Demo-Online-brightgreen?logo=heroku&logoColor=white"/></a>
-  -->
+
+  <!-- Updated Live Demo Badge for Render -->
+  <a href="https://ultrasound-image-enhancer.onrender.com/"><img alt="Live Demo on Render"
+    src="https://img.shields.io/badge/Live_Demo-Online-46E3B7?logo=render&logoColor=white"/></a>
 </div>
 
 ## Table of Contents
@@ -57,18 +57,16 @@ The goal is to offer a user-friendly tool for researchers, students, or medical 
 
 ## 3. Demo
 
-*(Insert screenshots of your application here)*
-
 **Main Interface:**
-![Placeholder for Main Interface Screenshot](main.png)
+![Main application interface](main.png)
 *(Caption: Overview of the application layout showing controls, original/enhanced image panes, and comparison view.)*
 
 **Enhancement Example:**
-![Placeholder for Enhancement Screenshot](enhanced.png)
+![Enhanced image example](enhanced.png)
 *(Caption: Example showing an original ultrasound image and the result after applying High-Boost Sharpening.)*
 
 **Comparison View:**
-![Placeholder for Comparison Screenshot](compare.png)
+![Comparison view example](compare.png)
 *(Caption: Close-up of the Comparison View showing the Absolute Difference map and the Segmentation overlay.)*
 
 ## 4. Technologies Used
@@ -81,8 +79,9 @@ The goal is to offer a user-friendly tool for researchers, students, or medical 
     *   Dash: Main framework for building the web application.
     *   Plotly: Creating interactive plots and image visualizations (`go.Heatmap`, `go.Image`).
     *   Dash Bootstrap Components (`dash-bootstrap-components`): Provides layout components (Cards, Rows, Cols) and Bootstrap styling (including the CYBORG theme).
-*   **Deployment (Optional - See Code Comments):**
-    *   Gunicorn / Waitress: WSGI servers for production deployment.
+*   **Deployment:**
+    *   Render.com (Hosting Platform)
+    *   Gunicorn (WSGI Server)
 
 ## 5. Installation
 
@@ -112,21 +111,28 @@ Follow these steps to set up the project locally:
     ```
     *(If you don't have a `requirements.txt`, install manually):*
     ```bash
-    pip install dash dash-bootstrap-components opencv-python numpy matplotlib plotly
+    pip install dash dash-bootstrap-components opencv-python numpy matplotlib plotly gunicorn
     ```
 
 ## 6. Usage
 
-1.  **Run the Application:**
+1.  **Run Locally:**
     Navigate to the project directory in your terminal (ensure your virtual environment is activated).
     ```bash
     python app.py
     ```
+    Access the app in your browser at `http://127.0.0.1:8050`.
 
-2.  **Access the App:**
-    Open your web browser and go to `http://127.0.0.1:8050` (or the address shown in the terminal).
+2.  **Run for Production (using Gunicorn, similar to Render):**
+    ```bash
+    gunicorn -w 4 -b 0.0.0.0:8050 app:server
+    ```
+    Access the app at `http://<your-local-ip>:8050`.
 
-3.  **Workflow:**
+3.  **Deployed App:**
+    Visit the live application hosted on Render: [https://ultrasound-image-enhancer.onrender.com/](https://ultrasound-image-enhancer.onrender.com/)
+
+4.  **Workflow:**
     *   Use the "Drag and Drop or Select Ultrasound Image" area to upload a grayscale image.
     *   The original image will appear in the top-left pane.
     *   Select an "Enhancement Technique" (Smoothing, Sharpening, High-Boost).
@@ -138,8 +144,6 @@ Follow these steps to set up the project locally:
 ## 7. License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
-*(Ensure you have a file named `LICENSE` in your repository containing the MIT License text.)*
 
 ## 8. Contributing
 
@@ -158,6 +162,8 @@ Please ensure your code adheres to basic Python best practices and includes comm
 
 If you have any questions, suggestions, or issues, please feel free to open an issue on the GitHub repository:
 
-[About author](https://github.com/LeoMcBills)
+[https://github.com/LeoMcBills/ultrasound_image_enhancer/issues](https://github.com/LeoMcBills/ultrasound_image_enhancer/issues)
 
-Or contact leokinyera81@gmail.com
+Or contact the author:
+*   GitHub: [LeoMcBills](https://github.com/LeoMcBills)
+*   Email: leokinyera81@gmail.com
