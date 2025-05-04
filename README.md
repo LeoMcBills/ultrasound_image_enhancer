@@ -3,7 +3,7 @@
 <!-- markdownlint-disable no-duplicate-header -->
 
 <div align="center">
-  <h1>Our Project 🔬</h1>
+  <h1>Ultra-sound image enhancer</h1>
   <p>An Interactive Web Application for Ultrasound Image Enhancement & Comparison</p>
 </div>
 <hr>
