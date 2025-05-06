@@ -72,7 +72,7 @@ The goal is to offer a user-friendly tool for researchers, students, or medical 
 ## 4. Technologies Used
 
 *   **Backend & Processing:**
-    *   Python 3.x
+    *   Python 3.12.4
     *   OpenCV (`opencv-python`): Core image processing (filtering, segmentation, encoding/decoding).
     *   NumPy: Numerical operations, array manipulation.
 *   **Web Framework & Frontend:**
