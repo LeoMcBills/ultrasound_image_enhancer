@@ -58,7 +58,7 @@ The goal is to offer a user-friendly tool for researchers, students, or medical 
 ## 3. Demo
 
 **Main Interface:**
-![Main application interface](main.png)
+![Main application interface](main_.png)
 *(Caption: Overview of the application layout showing controls, original/enhanced image panes, and comparison view.)*
 
 **Enhancement Example:**
