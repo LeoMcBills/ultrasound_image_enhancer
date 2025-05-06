@@ -63,7 +63,7 @@ The goal is to offer a user-friendly tool for researchers, students, or medical 
 
 **Enhancement Example:**
 ![Enhanced image example](enhanced_.png)
-*(Caption: Example showing an original ultrasound image and the result after applying High-Boost Sharpening.)*
+*(Caption: Example showing an original ultrasound image and the result after applying High-Boost Sharpening.)*  
 
 **Comparison View:**
 ![Comparison view example](compared_.png)
