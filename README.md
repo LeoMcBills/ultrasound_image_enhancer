@@ -58,15 +58,15 @@ The goal is to offer a user-friendly tool for researchers, students, or medical 
 ## 3. Demo
 
 **Main Interface:**
-![Main application interface](main.png)
+![Main application interface](main_.png)
 *(Caption: Overview of the application layout showing controls, original/enhanced image panes, and comparison view.)*
 
 **Enhancement Example:**
-![Enhanced image example](enhanced.png)
+![Enhanced image example](enhanced_.png)
 *(Caption: Example showing an original ultrasound image and the result after applying High-Boost Sharpening.)*
 
 **Comparison View:**
-![Comparison view example](compare.png)
+![Comparison view example](compared_.png)
 *(Caption: Close-up of the Comparison View showing the Absolute Difference map and the Segmentation overlay.)*
 
 ## 4. Technologies Used
